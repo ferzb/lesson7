@@ -47,12 +47,12 @@ $('#postForm').submit(function(e){
 
 })
 
-// $('.inner').click(function (event) {
-// 	alert('inner');
-// 	// event.preventDefault();
-// 	// event.stopPropagation();
-// 	return false;
-// })
+$('.inner').click(function (event) {
+	alert('inner');
+	// event.preventDefault();
+	// event.stopPropagation();
+	return false;
+})
 // $('.outer').click(function () {
 // 	alert('outer')
 
